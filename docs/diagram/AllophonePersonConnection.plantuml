@@ -1,0 +1,26 @@
+@startuml
+Title "Connection for allophone person"
+
+skinparam actorStyle awesome
+skinparam BoxPadding 10
+autonumber
+
+actor "Allophone Person" as PEOPLE
+box "Application" #Cyan
+  participant "FrontEnd" as FrontEnd #Cyan
+  participant "API Gateway" as API_GW #Cyan
+  participant "Token Broker" as Token_broker #Cyan
+end box
+box "Plateform" #MistyRose
+  participant Firebase as Firebase #MistyRose
+end box
+
+PEOPLE -> FrontEnd ++ : Anonymous connection
+FrontEnd -> Firebase ++ : Connection-anonymous-mode
+Firebase --> FrontEnd -- : Connection OK
+FrontEnd -> API_GW ++ : Get token
+API_GW --> Token_broker ++  : Token
+Token_broker --> API_GW -- : Get token
+API_GW --> FrontEnd -- : Token
+FrontEnd --> PEOPLE -- : Connection OK, token OK
+@enduml

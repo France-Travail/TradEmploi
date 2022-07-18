@@ -1,0 +1,42 @@
+@startuml
+title "Group interview"
+
+left to right direction
+skinparam actorStyle awesome
+
+
+actor People_A as p_A #DodgerBlue;text:DodgerBlue
+actor People_B as p_B #LimeGreen;text:LimeGreen
+actor People_C as p_C #SpringGreen;text:SpringGreen
+actor People_D as p_D #GreenYellow;text:GreenYellow
+
+package TradApplication {
+  usecase "Application on device A" as device_A #DodgerBlue
+  usecase "Application on device B" as device_B #LimeGreen
+  usecase "Application on device C" as device_C #SpringGreen
+  usecase "Application on device D" as device_D #GreenYellow
+  usecase "TradApplication Server" as server #OrangeRed
+}
+
+device_A --> server #OrangeRed
+device_B --> server #OrangeRed
+device_C --> server #OrangeRed
+device_D --> server #OrangeRed
+
+
+p_A --> device_A #DodgerBlue;text:DodgerBlue : 1. Initialize a conversation
+p_A --> device_A #DodgerBlue;text:DodgerBlue : 3. Asks questions, orally or in writing
+p_A --> device_A #DodgerBlue;text:DodgerBlue : 5. Responds to the questions or as needed, orally or in writing
+p_A --> device_A #DodgerBlue;text:DodgerBlue : 6. Close the conversation
+
+p_B --> device_B #LimeGreen;text:LimeGreen : 2. Choose language to converse
+p_B --> device_B #LimeGreen;text:LimeGreen : 4. Expresses need, orally or in writing
+
+p_C --> device_C #SpringGreen;text:SpringGreen : 2. Choose language to converse
+p_C --> device_C #SpringGreen;text:SpringGreen : 4. Expresses need, orally or in writing
+
+p_D --> device_D #GreenYellow;text:GreenYellow : 2. Choose language to converse
+p_D --> device_D #GreenYellow;text:GreenYellow : 4. Expresses need, orally or in writing
+
+@enduml
+

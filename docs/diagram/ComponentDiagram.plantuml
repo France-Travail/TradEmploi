@@ -1,0 +1,70 @@
+@startuml
+Title "Component Diagram of [TradApplication]"
+
+actor "Allophone person" as EXT_PEOPLE #yellowgreen
+actor "Employee" as INT_PEOPLE #green
+actor "Ops" as OPS #red
+
+node "Google Firestore" #Linen {
+  [FrontEnd] as FrontEnd #Cyan
+
+  node "[BackEnd]" #skyblue  {
+    [API Gateway] as API_GW #Cyan
+    [authentification] as Auth #Cyan
+    [telemetry] as telemetry #Cyan
+    [translation] as translation #Cyan
+    [reporting] as reporting #Cyan
+    [token broker] as token_broker #Cyan
+    [Clean Up] as clean_up #Cyan
+  }
+
+    [Authentification Firebase] as Authent_Firebase #MistyRose
+    [GCP console] as GCP_console #MistyRose
+    [GCP IAM] as GCP_IAM #MistyRose
+    database "FireStore" as FireStore #MistyRose
+    [Cloud Scheduler] as GCP_scheduler #MistyRose
+
+    EXT_PEOPLE -[#yellowGreen]-> FrontEnd : HTTPS
+    INT_PEOPLE -[#Green]-> FrontEnd : HTTPS
+    FrontEnd --> Authent_Firebase: redirect
+
+    FrontEnd --> API_GW
+    API_GW --> telemetry
+    API_GW --> reporting
+    API_GW --> token_broker
+    API_GW --> translation
+    API_GW --> Auth
+
+    reporting --> FireStore
+    GCP_scheduler --> clean_up
+    clean_up --> FireStore
+
+    OPS -[#red]-> GCP_console
+    GCP_console -[#red]-> GCP_IAM : redirect
+}
+
+node "Google Cloud IA" #LightGreen{
+    [TTS] as google_TTS #SpringGreen
+    [Translate] as google_Translate #SpringGreen
+    [STT] as google_STT  #SpringGreen
+}
+
+node "Microsoft Speech" as MS_IA #Plum {
+    [TTS] as ms_TTS #Purple
+    [Translate] as ms_Translate #Purple
+    [STT] as ms_STT #Purple
+}
+
+node "Company / Information System"  #DeepSkyBlue {
+    [OIDC connector] as OIDc #DeepSkyBlue
+}
+
+Auth --> OIDc
+FrontEnd -[#Green]-> google_TTS
+FrontEnd -[#Purple]-> ms_TTS
+translation -[#Green]-> google_Translate
+translation -[#purple]-> ms_Translate
+FrontEnd -[#Green]-> google_STT
+FrontEnd -[#Purple]-> ms_STT
+
+@enduml

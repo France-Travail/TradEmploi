@@ -1,0 +1,51 @@
+@startuml
+Title "Sequence diagram for employee authentication with OIDC delegation"
+
+skinparam actorStyle awesome
+skinparam BoxPadding 10
+autonumber
+
+actor Employee as EMPLOYEE
+
+box "Application" #Cyan
+  participant "FrontEnd" as FrontEnd #Cyan
+  participant "API Gateway" as API_GW #Cyan
+  participant "Authentication" as Authentication #Cyan
+  participant "Telemetry" as Telemetry #Cyan
+  participant "Token Broker" as Token_broker #Cyan
+end box
+
+box "Internal Information System" #DeepSkyBlue
+  participant OIDC as OIDC #DeepSkyBlue
+end box
+
+box "Plateform" #MistyRose
+  participant Firebase as Firebase #MistyRose
+  database "FireStore" as FireStore #MistyRose
+end box
+
+EMPLOYEE -> FrontEnd ++ : Authentication
+
+Group Delegation of authentication to the OIDC mechanism
+  FrontEnd -> API_GW ++ : Authentication
+  API_GW -> Authentication ++ : Authentication
+  Authentication -> OIDC ++ : Authentication
+  OIDC --> Authentication -- : Access token
+  Authentication --> API_GW -- : Access token
+  API_GW --> FrontEnd -- : Access token
+end
+
+Group Technical authentication on Firebase Platform
+  FrontEnd -> API_GW ++ : Technical connection
+  API_GW -> Firebase ++ : Connection-signed-method
+  Firebase --> API_GW -- : Connection OK
+  API_GW -> Token_broker ++ : Retrieve the token
+    note right: Technical email address
+  Token_broker --> API_GW -- : Token returned
+  API_GW -> Telemetry ++ : Save connection
+  Telemetry --> FireStore -- : Save connection in database
+  API_GW --> FrontEnd --: Technical connection OK (with good token)
+end
+FrontEnd --> EMPLOYEE -- : Employee authenticate
+
+@enduml

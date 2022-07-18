@@ -1,0 +1,20 @@
+@startuml
+Title Connection for allophone person
+
+skinparam actorStyle awesome
+
+actor "Allophone Person" as PEOPLE #LimeGreen
+participant "FrontEnd" as FrontEnd #Cyan
+participant Firebase as Firebase #MistyRose
+participant "API Gateway" as API_GW #Cyan
+participant "Token Broker" as Token_broker #Cyan
+
+PEOPLE -> FrontEnd : 1: anonymous connection
+FrontEnd -> Firebase : 2: connection-anonymous-mode
+Firebase --> FrontEnd : 3: connection OK
+FrontEnd -> API_GW : 4: get token
+API_GW --> Token_broker : 5: token
+Token_broker --> API_GW: 6: get token
+API_GW --> FrontEnd : 7: token
+FrontEnd --> PEOPLE : 8: connection OK, token OK
+@enduml

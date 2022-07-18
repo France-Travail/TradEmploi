@@ -1,0 +1,62 @@
+@startuml
+title "Exchange between one employee and one allophone person"
+
+skinparam actorStyle awesome
+skinparam BoxPadding 10
+autonumber
+
+actor "Allophone person" as PERSON #LimeGreen
+actor "Employee" as EMPLOYEE #DodgerBlue
+
+box "application" #Cyan
+  participant "FrontEnd" as FrontEnd #Cyan
+  participant "API Gateway" as API_GW #Cyan
+  participant "Translate" as Translate #Cyan
+  participant "Reporting" as Reporting #Cyan
+end box
+
+box "cognitive service" #MistyRose
+  participant "STT" as STT #MistyRose
+  participant "TTS" as TTS #Mistyrose
+  participant "Translation" as Translation #MistyRose
+end box
+
+box "plateform" #MistyRose
+  database "FireStore" as FireStore #MistyRose
+end box
+
+group #limeGreen Oral expression from allophone person [#limeGreen]
+  activate PERSON #OrangeRed
+  PERSON -[#OrangeRed]> FrontEnd : Speak in his native language
+  deactivate PERSON
+  activate FrontEnd #Crimson
+  FrontEnd -> STT ++ : Convert sound message in text message
+  STT --> FrontEnd -- : Message written in foreing language
+  deactivate FrontEnd
+end
+
+group Translation
+  FrontEnd -> API_GW ++ : Translate the message from foreign to local language
+  activate FrontEnd #Crimson
+  API_GW -> Translation ++ : Translate the message from foreign to local language
+  Translation --> API_GW -- : Message in local language
+  API_GW -> Translate : Analyse message (text)
+  activate Translate
+  API_GW -> Reporting ++ : Log message
+  deactivate Translate
+  Reporting -> FireStore -- : temporalily, save the cipher message in database
+  API_GW --> FrontEnd --: message translate in local language
+  deactivate API_GW
+  deactivate FrontEnd
+end
+
+group #DodgerBlue Oral restitution to employee
+  FrontEnd -> TTS ++ : convert text message to oral message
+  activate FrontEnd #Crimson
+  TTS --> FrontEnd  -- : oral message in local language
+
+activate EMPLOYEE #OrangeRed
+  FrontEnd -[#red]-> EMPLOYEE : restitution of the oral message
+  deactivate FrontEnd
+  deactivate EMPLOYEE
+end
