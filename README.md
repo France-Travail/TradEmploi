@@ -14,16 +14,11 @@ You should have received a copy of the GNU Affero General Public License along w
 # Licence
 This project is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE V3.0. Please check the LICENSE file.
 
-# Philosophy and objective
-
-This project is the backend of the application. The frontend is **petranslate** project. Checks readme to install it.
-The purpose of this application is describe in the documention of the frontend part.
-
 # Modules
 
-- TradEmploi: this module; main documentation
-- TradEmploi-backend
-- TradEmploi-frontend
+- [TradEmploi: this module; main documentation](docs/documentation.md)
+- [TradEmploi-backend](https://gitlab.com/petranslate/TradEmploi-backend)
+- [TradEmploi-frontend](https://gitlab.com/petranslate/TradEmploi-frontend)
 
 # Installation
 
