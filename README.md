@@ -17,8 +17,8 @@ This project is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE V3.0. Pl
 # Modules
 
 - [TradEmploi: main documentation](docs/documentation.md)
-- [TradEmploi-backend](https://gitlab.com/petranslate/TradEmploi-backend)
-- [TradEmploi-frontend](https://gitlab.com/petranslate/TradEmploi-frontend)
+- [TradEmploi-backend](https://github.com/OSS-Pole-Emploi/TradEmploi-BackEnd.git)
+- [TradEmploi-frontend](https://github.com/OSS-Pole-Emploi/TradEmploi-FrontEnd.git)
 
 # Installation
 
