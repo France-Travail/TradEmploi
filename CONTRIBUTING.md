@@ -1,4 +1,4 @@
-# Trademploi - Equipe innovation Pole emploi
+# Trademploi - Innovation Department, DSI Pôle Emploi
 
 ## Licence
 
