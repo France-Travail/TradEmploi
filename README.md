@@ -1,5 +1,6 @@
----
-**TradEmploi: an instantaneous translation application between two people, one of whom is allophone**
+```
+
+TradEmploi: an instantaneous translation application between two people, one of whom is allophone
 
 Copyright (C) <2022>  <Innovation Department, DSI Pôle Emploi>
 
@@ -7,7 +8,7 @@ This program is free software: you can redistribute it and/or modify it under th
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details.
 You should have received a copy of the GNU Affero General Public License along with this program.  If not, see https://www.gnu.org/licenses/.
 
----
+```
 
 # TradEmploi
 
