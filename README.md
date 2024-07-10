@@ -20,8 +20,6 @@ L'application a été déployée chez France Travail au printemps 2022 (TradEmpl
 - Navigateurs recommandés: Google Chrome               
 - Profil : accès sécurisé via les identifiants Pôle emploi pour le conseiller (login/mot de passe ou certificat).
 
-############## DOCUMENTATION TECHNQIUE #################
-
 # Licence
 This project is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE V3.0. Please check the LICENSE file.
 
