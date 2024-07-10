@@ -14,8 +14,6 @@ L'application a été déployée chez France Travail au printemps 2022 (TradEmpl
 
 ![image](https://github.com/akourlaiev/TradEmploi/assets/20724274/cd5ee357-3da1-4d61-b554-9db5e38a34d6)
 
-![image](https://github.com/akourlaiev/TradEmploi/assets/20724274/9e7c39b0-805e-48eb-9ab7-4f4a341ff332)
-
 # Prérequis à l'utilisation de l'application
 - Internet : connexion permanente à internet filaire, WIFI ou 4G
 - Appareils recommandés : PC, tablette
