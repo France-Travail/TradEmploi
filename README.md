@@ -1,5 +1,5 @@
-# TradEmploi
-TradEmploi est une application web qui permet à des personnes ne parlant pas les mêmes langues de communiquer. Chacun peut parler et entendre dans sa propre langue. 
+# TradEmploi / TradSNCF
+TradEmploi / TradSNCF est une application web qui permet à des personnes ne parlant pas les mêmes langues de communiquer. Chacun peut parler et entendre dans sa propre langue. 
 
 L’application intègre, dans un cadre sécurisé, des APIs de langage fournis par Google Cloud, Microsoft Azure, et DeepL. 
 
@@ -12,13 +12,18 @@ L'application a été déployée chez France Travail au printemps 2022 (TradEmpl
 
 ![image](https://github.com/akourlaiev/TradEmploi/assets/20724274/e0719c08-607d-459b-8885-fdd6560d00de)
 
-![image](https://github.com/akourlaiev/TradEmploi/assets/20724274/cd5ee357-3da1-4d61-b554-9db5e38a34d6)
+![image](https://github.com/user-attachments/assets/07e6680b-1af0-4dab-9af6-4d111e5cec2f)
+
 
 # Prérequis à l'utilisation de l'application
-- Internet : connexion permanente à internet filaire, WIFI ou 4G
-- Appareils recommandés : PC, tablette
-- Navigateurs recommandés: Google Chrome               
-- Profil : accès sécurisé via les identifiants Pôle emploi pour le conseiller (login/mot de passe ou certificat).
+- Internet : connexion permanente à internet filaire, WIFI ou 4G.
+- Appareils recommandés : PC, tablette, téléphones.
+- Navigateurs recommandés: Google Chrome.               
+- Profil : Accès à la version France Travail, via Inclusion Connect : https://inclusion.beta.gouv.fr/nos-services/inclusion-connect/ ou via SSO (login/mot de passe ou certificat) de la SNCF et de France Travail.
+
+# Choisir la langue 
+
+# 
 
 # Licence
 This project is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE V3.0. Please check the LICENSE file.
