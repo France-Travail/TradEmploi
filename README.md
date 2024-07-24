@@ -49,8 +49,6 @@ Recommandations importantes lors des entretiens avec un usager allophone :
 - Utilisez des signes de la main pour faire comprendre à l’usager que c’est à lui ou à vous de parler avant de cliquer sur le micro.
 - En zone d’accueil public, évitez les échanges sur tablette avec du monde autour pour ne pas générer de perturbations (bruit, phrases d’une personne voisine)
 
-![image](https://github.com/user-attachments/assets/d33cc611-9e15-4851-bb19-bb2d8e9031f8)
-
 # Evaluer l'expérience
 A la fin de l'entretien, vous avez la possiblité de contribuer à l'amélioration de l'outil en effectuant une rapide évaluation de manière anonyme.
 <img width="955" alt="image" src="https://github.com/user-attachments/assets/022b0a81-12f2-4ad4-8d19-4247cba31670">
