@@ -22,6 +22,29 @@ In this use-case, we make a group interview, each participant use own device.
 
 ![](img/UC3_GroupInterview.png)
 
+# Installation
+
+see TradEmploi-backend / TradEmploi-frontend:
+
+1. backend: Create GCP Infrastructure with Terraform 
+2. backend: Deploy backend services
+3. frontend: Create the Firebase application
+4. frontend: Deploy frontend application
+5. frontend / backendConfigure security
+
+
+```
+
+TradEmploi: an instantaneous translation application between two people, one of whom is allophone
+
+Copyright (C) <2022>  <Innovation Department, DSI France Travail>
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details.
+You should have received a copy of the GNU Affero General Public License along with this program.  If not, see https://www.gnu.org/licenses/.
+
+```
+
 # Architecture
 
 The main components are described follow:
