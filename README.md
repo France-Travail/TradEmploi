@@ -1,5 +1,5 @@
 # TradEmploi / TradSNCF
-TradEmploi / TradSNCF est une application web qui permet à des personnes ne parlant pas les mêmes langues de communiquer. Chacun peut parler et entendre dans sa propre langue. 
+TradEmploi / TradSNCF est une application web qui permet à des personnes ne parlants pas les mêmes langues de communiquer. Chacun peut parler et entendre dans sa propre langue. 
 
 L’application intègre, dans un cadre sécurisé, des APIs de langage fournis par Google Cloud, Microsoft Azure, et DeepL. 
 
@@ -8,12 +8,13 @@ Ce sont 3 types de services avec des natures d’IA différentes qui sont utilis
 - le 2nd pour traduire le texte,
 - le 3eme pour lire la traduction et tout cela en 130 langues.
 
-L'application a été déployée chez France Travail au printemps 2022 (TradEmploi) et à la SNCF en 2024 pour l'accueil des 2 millions de voyageurs étrangers (TradSNCF).
+Les données sont traitées de manière anonyme et sont supprimées à la fin des échanges.
+
+L'application a été déployée chez France Travail au printemps 2022 (TradEmploi), à la SNCF en 2024 pour l'accueil des 2 millions de voyageurs étrangers (TradSNCF) et rendu accessible à l'ensemble du [réseau de l'inclusion](https://inclusion.beta.gouv.fr/nos-services/inclusion-connect/).
 
 ![image](https://github.com/akourlaiev/TradEmploi/assets/20724274/e0719c08-607d-459b-8885-fdd6560d00de)
 
 ![image](https://github.com/user-attachments/assets/07e6680b-1af0-4dab-9af6-4d111e5cec2f)
-
 
 # Prérequis à l'utilisation de l'application
 - Internet : connexion permanente à internet filaire, WIFI ou 4G.
@@ -27,9 +28,9 @@ L'agent présente l'écran à l'usager pour le choix de la langue. Le choix est 
 - le nom du pays où la langue en question est la plus répondu (écrit en français et dans la langue en question)
 - le drapeau correspodant au pays
 
-L'enregistrement sonore permetant de valider la bonne comphéresion de la langue par l'usager.
+L'enregistrement sonore permet de valider la bonne comphéresion de la langue par l'usager.
 
-Il existe des langues où la prise en charge la vocalisation dans la langue de l'usager allophone n'est pas prise en charge : "cas dégradés". Pour ces cas, l'usager ne pourra pas entendre les traductions dans sa langue et devra les lire sur l'écran. La vocalisation sera mis en oeuvre pour ces lagues lorsqu'elle sera disponible chez les fournisseurs de traductions.
+Il existe des langues où la vocalisation n'est pas prise en charge. Pour ces cas, l'usager ne pourra pas entendre les traductions dans sa langue et devra les lire sur l'écran. La vocalisation sera mis en oeuvre pour ces lagues lorsqu'elle sera disponible chez les fournisseurs de traductions.
 
 <img width="770" alt="image" src="https://github.com/user-attachments/assets/8dfc4b6b-a3d9-4afc-a669-6e5acd4b0272">
   
@@ -48,19 +49,16 @@ Recommandations importantes lors des entretiens avec un usager allophone :
 - Utilisez des signes de la main pour faire comprendre à l’usager que c’est à lui ou à vous de parler avant de cliquer sur le micro.
 - En zone d’accueil public, évitez les échanges sur tablette avec du monde autour pour ne pas générer de perturbations (bruit, phrases d’une personne voisine)
 
-
 ![image](https://github.com/user-attachments/assets/d33cc611-9e15-4851-bb19-bb2d8e9031f8)
 
 # Evaluer l'expérience
-A la fin de l'entretien, vous avez la possiblité de contribuer à l'amélioration de l'outil en effectué une rapide évaluation de manière anonyme.
+A la fin de l'entretien, vous avez la possiblité de contribuer à l'amélioration de l'outil en effectuant une rapide évaluation de manière anonyme.
 <img width="955" alt="image" src="https://github.com/user-attachments/assets/022b0a81-12f2-4ad4-8d19-4247cba31670">
 
 # Licence
 Ce projet est distribué sous la licence GNU AFFERO GENERAL PUBLIC LICENSE V3.0. Merci lire le fichier LICENSE.
 
-# Modules
-- Documentation fonctionnelle (ici)
-- Documenation technique :
-  - [TradEmploi: main documentation](docs/documentation.md)
-  - [TradEmploi-backend](https://github.com/OSS-Pole-Emploi/TradEmploi-BackEnd.git)
-  - [TradEmploi-frontend](https://github.com/OSS-Pole-Emploi/TradEmploi-FrontEnd.git)
+# Modules et documentation technique
+- Documenation technique : [TradEmploi: main documentation](docs/documentation.md)
+- Code source et documentation du module [TradEmploi-backend](https://github.com/OSS-Pole-Emploi/TradEmploi-BackEnd.git)
+- Code source et documentation du module [TradEmploi-frontend](https://github.com/OSS-Pole-Emploi/TradEmploi-FrontEnd.git)
