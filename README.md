@@ -17,13 +17,27 @@ L'application a été déployée chez France Travail au printemps 2022 (TradEmpl
 
 # Prérequis à l'utilisation de l'application
 - Internet : connexion permanente à internet filaire, WIFI ou 4G.
-- Appareils recommandés : PC, tablette, téléphones.
+- Appareils recommandés : PC, tablette, téléphones (android et iPhone).
 - Navigateurs recommandés: Google Chrome.               
-- Compte utilisateur : SSO France Travail, SNCF, [Inculusion Connect](https://inclusion.beta.gouv.fr/nos-services/inclusion-connect/), Firebase Auth (login/mot de passe ou certificat)
+- Compte utilisateur : SSO France Travail, SNCF, [Inclusion Connect](https://inclusion.beta.gouv.fr/nos-services/inclusion-connect/), Firebase Auth (login/mot de passe ou certificat).
 
 # Choisir la langue 
+L'agent présente l'écran à l'usager pour le choix de la langue. Le choix est fait en se basant sur : 
+- le nom de la langue (écrit en français et dans la langue en question)
+- le nom du pays où la langue en question est la plus répondu (écrit en français et dans la langue en question)
+- le drapeau correspodant au pays
 
-# 
+L'enregistrement sonore permetant de valider la bonne comphéresion de la langue par l'usager.
+
+Il existe des langues où la prise en charge la vocalisation dans la langue de l'usager allophone n'est pas prise en charge : "cas dégradés". Pour ces cas, l'usager ne pourra pas entendre les traductions dans sa langue et devra les lire sur l'écran. La vocalisation sera mis en oeuvre pour ces lagues lorsqu'elle sera disponible chez les fournisseurs de traductions.
+
+<img width="770" alt="image" src="https://github.com/user-attachments/assets/8dfc4b6b-a3d9-4afc-a669-6e5acd4b0272">
+  
+# Converser
+Une phrase d'acceuil traduit dans la langue de l'usager donne quelques consignes d'utilisation : "Voici un traducteur automatique qui va traduire votre langue. Pour améliorer l'expérience de traduction, faites des phrases courtes et simples et parlez suffisamment fort.". Ces consignes peuvent être synthétisées vocalement.
+![image](https://github.com/user-attachments/assets/5a03ce01-7384-48af-9c60-eb9ad6211ca4)
+
+
 
 # Licence
 This project is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE V3.0. Please check the LICENSE file.
