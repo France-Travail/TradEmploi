@@ -19,7 +19,7 @@ L'application a été déployée chez France Travail au printemps 2022 (TradEmpl
 - Internet : connexion permanente à internet filaire, WIFI ou 4G.
 - Appareils recommandés : PC, tablette, téléphones.
 - Navigateurs recommandés: Google Chrome.               
-- Profil : Accès à la version France Travail, via Inclusion Connect : https://inclusion.beta.gouv.fr/nos-services/inclusion-connect/ ou via SSO (login/mot de passe ou certificat) de la SNCF et de France Travail.
+- Compte utilisateur : SSO France Travail, SNCF, [Inculusion Connect](https://inclusion.beta.gouv.fr/nos-services/inclusion-connect/), Firebase Auth (login/mot de passe ou certificat)
 
 # Choisir la langue 
 
