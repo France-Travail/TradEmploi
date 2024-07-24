@@ -10,7 +10,7 @@ Ce sont 3 types de services avec des natures d’IA différentes qui sont utilis
 
 Les données sont traitées de manière anonyme et sont supprimées à la fin des échanges.
 
-L'application a été déployée chez France Travail au printemps 2022 (TradEmploi), à la SNCF en 2024 pour l'accueil des 2 millions de voyageurs étrangers (TradSNCF) et rendu accessible à l'ensemble du [réseau de l'inclusion](https://inclusion.beta.gouv.fr/nos-services/inclusion-connect/).
+L'application a été déployée chez France Travail au printemps 2022 (TradEmploi), à la SNCF en 2024 pour l'accueil des 2 millions de voyageurs étrangers (TradSNCF) et rendu accessible à l'ensemble du [réseau de l'inclusion](https://inclusion.beta.gouv.fr/nos-services/inclusion-connect/) fin 2024.
 
 ![image](https://github.com/akourlaiev/TradEmploi/assets/20724274/e0719c08-607d-459b-8885-fdd6560d00de)
 
