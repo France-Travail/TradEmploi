@@ -34,39 +34,33 @@ Il existe des langues où la prise en charge la vocalisation dans la langue de l
 <img width="770" alt="image" src="https://github.com/user-attachments/assets/8dfc4b6b-a3d9-4afc-a669-6e5acd4b0272">
   
 # Converser
-Une phrase d'acceuil traduit dans la langue de l'usager donne quelques consignes d'utilisation : "Voici un traducteur automatique qui va traduire votre langue. Pour améliorer l'expérience de traduction, faites des phrases courtes et simples et parlez suffisamment fort.". Ces consignes peuvent être synthétisées vocalement.
+Après avoir choisit une langue, vous arrivez sur la page support à l'entretien. Une phrase d'acceuil traduit dans la langue de l'usager donne quelques consignes d'utilisation : "Voici un traducteur automatique qui va traduire votre langue. Pour améliorer l'expérience de traduction, faites des phrases courtes et simples et parlez suffisamment fort.". Ces consignes peuvent être synthétisées vocalement dans la langue de l'usager.
+
 ![image](https://github.com/user-attachments/assets/5a03ce01-7384-48af-9c60-eb9ad6211ca4)
 
+Recommandations importantes lors des entretiens avec un usager allophone :
+- Parlez distinctement, suffisamment proche du micro
+- Faites des phrases courtes
+- Evitez les acronymes. Exemple : à la place de RIB, dites Relevé d’Identité Bancaire, RIB est parfois traduit avec un contresens
+- Après avoir parlé, vérifiez la phrase écrite par TradEmploi avant de cliquer sur envoi
+    - Une mauvaise articulation, formulation peuvent changer le sens de la phrase
+    - Vous pouvez reformuler ou modifier au clavier avant envoi
+- Utilisez des signes de la main pour faire comprendre à l’usager que c’est à lui ou à vous de parler avant de cliquer sur le micro.
+- En zone d’accueil public, évitez les échanges sur tablette avec du monde autour pour ne pas générer de perturbations (bruit, phrases d’une personne voisine)
 
+
+![image](https://github.com/user-attachments/assets/d33cc611-9e15-4851-bb19-bb2d8e9031f8)
+
+# Evaluer l'expérience
+A la fin de l'entretien, vous avez la possiblité de contribuer à l'amélioration de l'outil en effectué une rapide évaluation de manière anonyme.
+<img width="955" alt="image" src="https://github.com/user-attachments/assets/022b0a81-12f2-4ad4-8d19-4247cba31670">
 
 # Licence
-This project is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE V3.0. Please check the LICENSE file.
+Ce projet est distribué sous la licence GNU AFFERO GENERAL PUBLIC LICENSE V3.0. Merci lire le fichier LICENSE.
 
 # Modules
-
-- [TradEmploi: main documentation](docs/documentation.md)
-- [TradEmploi-backend](https://github.com/OSS-Pole-Emploi/TradEmploi-BackEnd.git)
-- [TradEmploi-frontend](https://github.com/OSS-Pole-Emploi/TradEmploi-FrontEnd.git)
-
-# Installation
-
-see TradEmploi-backend / TradEmploi-frontend:
-
-1. backend: Create GCP Infrastructure with Terraform 
-2. backend: Deploy backend services
-3. frontend: Create the Firebase application
-4. frontend: Deploy frontend application
-5. frontend / backendConfigure security
-
-
-```
-
-TradEmploi: an instantaneous translation application between two people, one of whom is allophone
-
-Copyright (C) <2022>  <Innovation Department, DSI France Travail>
-
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU Affero General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more details.
-You should have received a copy of the GNU Affero General Public License along with this program.  If not, see https://www.gnu.org/licenses/.
-
-```
+- Documentation fonctionnelle (ici)
+- Documenation technique :
+  - [TradEmploi: main documentation](docs/documentation.md)
+  - [TradEmploi-backend](https://github.com/OSS-Pole-Emploi/TradEmploi-BackEnd.git)
+  - [TradEmploi-frontend](https://github.com/OSS-Pole-Emploi/TradEmploi-FrontEnd.git)
