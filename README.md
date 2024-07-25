@@ -35,7 +35,7 @@ Il existe des langues où la vocalisation n'est pas prise en charge. Pour ces ca
 <img width="770" alt="image" src="https://github.com/user-attachments/assets/8dfc4b6b-a3d9-4afc-a669-6e5acd4b0272">
   
 # Converser
-Après avoir choisit une langue, vous arrivez sur la page support à l'entretien. Une phrase d'acceuil traduit dans la langue de l'usager donne quelques consignes d'utilisation : "Voici un traducteur automatique qui va traduire votre langue. Pour améliorer l'expérience de traduction, faites des phrases courtes et simples et parlez suffisamment fort.". Ces consignes peuvent être synthétisées vocalement dans la langue de l'usager.
+Après avoir choisi une langue, vous arrivez sur la page support à l'entretien. Une phrase d'acceuil traduit dans la langue de l'usager donne quelques consignes d'utilisation : "Voici un traducteur automatique qui va traduire votre langue. Pour améliorer l'expérience de traduction, faites des phrases courtes et simples et parlez suffisamment fort.". Ces consignes peuvent être synthétisées vocalement dans la langue de l'usager.
 
 ![image](https://github.com/user-attachments/assets/0349edd0-3b60-47fb-8370-eb456471ded2)
 
