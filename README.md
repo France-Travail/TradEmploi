@@ -73,6 +73,6 @@ Connexions via bouton Inclusion Connect : https://stats.inclusion.beta.gouv.fr/p
 Ce projet est distribué sous la licence GNU AFFERO GENERAL PUBLIC LICENSE V3.0. Merci lire le fichier LICENSE.
 
 # Modules et documentation technique
-- Documenation technique : [TradEmploi: main documentation](docs/documentation.md)
-- Code source et documentation du module [TradEmploi-backend](https://github.com/OSS-Pole-Emploi/TradEmploi-BackEnd.git)
-- Code source et documentation du module [TradEmploi-frontend](https://github.com/OSS-Pole-Emploi/TradEmploi-FrontEnd.git)
+- Documenation technique globale du projet : [TradEmploi: main documentation](docs/documentation.md)
+- Code source et documentation technique du module [TradEmploi-backend](https://github.com/OSS-Pole-Emploi/TradEmploi-BackEnd.git)
+- Code source et documentation technique du module [TradEmploi-frontend](https://github.com/OSS-Pole-Emploi/TradEmploi-FrontEnd.git)
