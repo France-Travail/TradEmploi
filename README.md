@@ -53,8 +53,21 @@ Recommandations importantes lors des entretiens avec un usager allophone :
 A la fin de l'entretien, vous avez la possiblité de contribuer à l'amélioration de l'outil en effectuant une rapide évaluation de manière anonyme.
 <img width="955" alt="image" src="https://github.com/user-attachments/assets/022b0a81-12f2-4ad4-8d19-4247cba31670">
 
-# Démonstration 
+# Démonstration
+Vidéo teasing:
 
+https://github.com/user-attachments/assets/ea8b524d-fc30-4b96-a896-92e98588ee74
+
+Vidéo en motion design:
+
+[![Watch the video](https://img.youtube.com/vi/aRF_eJWPfeY/default.jpg)](https://www.youtube.com/embed/aRF_eJWPfeY)
+
+Tests par les médias : 
+- [Vidéo BFMTV](https://www.bfmtv.com/paris/replay-emissions/bonjour-paris/sncf-une-appli-de-traduction-en-130-langues_VN-202404190143.html)
+- [Podcast RTL](https://www.rtl.fr/actu/debats-societe/tradsncf-comment-fonctionne-l-appli-qui-devra-aider-les-touristes-etrangers-7900375831) 
+
+# Suivi usage
+Connexions via bouton Inclusion Connect : https://stats.inclusion.beta.gouv.fr/public/dashboard/e9f7b6f2-e3af-45e9-84ef-0e91c2ba4c8c
 
 # Licence
 Ce projet est distribué sous la licence GNU AFFERO GENERAL PUBLIC LICENSE V3.0. Merci lire le fichier LICENSE.
