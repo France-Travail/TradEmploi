@@ -10,7 +10,7 @@ Ce sont 3 types de services avec des natures d’IA différentes qui sont utilis
 
 Les données sont traitées de manière anonyme et sont supprimées à la fin des échanges.
 
-L'application a été déployée chez France Travail au printemps 2022 (TradEmploi), à la SNCF en 2024 pour l'accueil des 2 millions de voyageurs étrangers (TradSNCF) et rendu accessible à l'ensemble du [réseau de l'inclusion](https://inclusion.beta.gouv.fr/nos-services/inclusion-connect/) fin 2024.
+L'application a été développée et déployée chez France Travail au printemps 2022 (TradEmploi), à la SNCF en 2024 pour l'accueil des 2 millions de voyageurs étrangers (TradSNCF) et rendu accessible à l'ensemble du [réseau de l'inclusion](https://inclusion.beta.gouv.fr/nos-services/inclusion-connect/) courant 2024.
 
 ![image](https://github.com/akourlaiev/TradEmploi/assets/20724274/e0719c08-607d-459b-8885-fdd6560d00de)
 
@@ -52,6 +52,9 @@ Recommandations importantes lors des entretiens avec un usager allophone :
 # Evaluer l'expérience
 A la fin de l'entretien, vous avez la possiblité de contribuer à l'amélioration de l'outil en effectuant une rapide évaluation de manière anonyme.
 <img width="955" alt="image" src="https://github.com/user-attachments/assets/022b0a81-12f2-4ad4-8d19-4247cba31670">
+
+# Démonstration 
+
 
 # Licence
 Ce projet est distribué sous la licence GNU AFFERO GENERAL PUBLIC LICENSE V3.0. Merci lire le fichier LICENSE.
