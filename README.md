@@ -1,78 +1,78 @@
 # TradEmploi / TradSNCF
-TradEmploi / TradSNCF est une application web qui permet à des personnes ne parlants pas les mêmes langues de communiquer. Chacun peut parler et entendre dans sa propre langue. 
+TradEmploi / TradSNCF is a web application that allows people who do not speak the same languages to communicate. Everyone can speak and hear in their own language.
 
-L’application intègre, dans un cadre sécurisé, des APIs de langage fournis par Google Cloud, Microsoft Azure, et DeepL. 
+The application integrates, in a secure framework, language APIs provided by Google Cloud, Microsoft Azure, and DeepL.
 
-Ce sont 3 types de services avec des natures d’IA différentes qui sont utilisées : 
-- le 1er pour retranscrire la voix en texte, 
-- le 2nd pour traduire le texte,
-- le 3eme pour lire la traduction et tout cela en 130 langues.
+Three types of services with different AI systems are used:
+- The first one transcribes voice into text,
+- The second translates the text,
+- The third reads the translation aloud, all in 130 languages.
 
-Les données sont traitées de manière anonyme et sont supprimées à la fin des échanges.
+The data is processed anonymously and deleted after the exchanges.
 
-L'application a été développée et déployée chez France Travail au printemps 2022 (TradEmploi), à la SNCF en 2024 pour l'accueil des 2 millions de voyageurs étrangers (TradSNCF) et rendu accessible à l'ensemble du [réseau de l'inclusion](https://inclusion.beta.gouv.fr/nos-services/inclusion-connect/) courant 2024.
+The application was developed and deployed at France Travail in spring 2022 (TradEmploi), and at SNCF in 2024 to assist the 2 million foreign travelers (TradSNCF). It became available to the entire [inclusion network](https://inclusion.beta.gouv.fr/nos-services/inclusion-connect/) in 2024.
 
 ![image](https://github.com/akourlaiev/TradEmploi/assets/20724274/e0719c08-607d-459b-8885-fdd6560d00de)
 
 ![image](https://github.com/user-attachments/assets/07e6680b-1af0-4dab-9af6-4d111e5cec2f)
 
-# Prérequis à l'utilisation de l'application
-- Internet : connexion permanente à internet filaire, WIFI ou 4G.
-- Appareils recommandés : PC, tablette, téléphones (android et iPhone).
-- Navigateurs recommandés: Google Chrome.               
-- Compte utilisateur : SSO France Travail, SNCF, [Inclusion Connect](https://inclusion.beta.gouv.fr/nos-services/inclusion-connect/), Firebase Auth (login/mot de passe ou certificat).
+# Prerequisites for using the application
+- Internet: continuous connection via wired, WiFi, or 4G.
+- Recommended devices: PC, tablet, smartphones (Android and iPhone).
+- Recommended browsers: Google Chrome.
+- User account: SSO France Travail, SNCF, [Inclusion Connect](https://inclusion.beta.gouv.fr/nos-services/inclusion-connect/), Firebase Auth (login/password or certificate).
 
-# Choisir la langue 
-L'agent présente l'écran à l'usager pour le choix de la langue. Le choix est fait en se basant sur : 
-- le nom de la langue (écrit en français et dans la langue en question)
-- le nom du pays où la langue en question est la plus répondu (écrit en français et dans la langue en question)
-- le drapeau correspodant au pays
+# Choosing the language
+The agent presents the screen to the user to choose a language. The choice is made based on:
+- The language name (written in French and the target language),
+- The name of the country where the language is most commonly spoken (written in French and the target language),
+- The corresponding flag of the country.
 
-L'enregistrement sonore permet de valider la bonne comphéresion de la langue par l'usager.
+A voice recording is used to confirm the user's correct language comprehension.
 
-Il existe des langues où la vocalisation n'est pas prise en charge. Pour ces cas, l'usager ne pourra pas entendre les traductions dans sa langue et devra les lire sur l'écran. La vocalisation sera mis en oeuvre pour ces lagues lorsqu'elle sera disponible chez les fournisseurs de traductions.
+There are languages where voice output is not supported. In these cases, the user will not be able to hear the translations in their language and will need to read them on the screen. Voice support will be implemented for these languages when available from the translation providers.
 
 <img width="770" alt="image" src="https://github.com/user-attachments/assets/8dfc4b6b-a3d9-4afc-a669-6e5acd4b0272">
-  
-# Converser
-Après avoir choisi une langue, vous arrivez sur la page support à l'entretien. Une phrase d'acceuil traduit dans la langue de l'usager donne quelques consignes d'utilisation : "Voici un traducteur automatique qui va traduire votre langue. Pour améliorer l'expérience de traduction, faites des phrases courtes et simples et parlez suffisamment fort.". Ces consignes peuvent être synthétisées vocalement dans la langue de l'usager.
+
+# Conversing
+After choosing a language, you arrive on the conversation support page. A greeting message translated into the user's language provides instructions: "This is an automatic translator that will translate your language. For a better translation experience, use short and simple sentences and speak clearly." These instructions can be voiced in the user's language.
 
 ![image](https://github.com/user-attachments/assets/0349edd0-3b60-47fb-8370-eb456471ded2)
 
-Recommandations importantes lors des entretiens avec un usager allophone :
-- Parlez distinctement, suffisamment proche du micro
-- Faites des phrases courtes
-- Evitez les acronymes. Exemple : à la place de RIB, dites Relevé d’Identité Bancaire, RIB est parfois traduit avec un contresens
-- Après avoir parlé, vérifiez la phrase écrite par TradEmploi avant de cliquer sur envoi
-    - Une mauvaise articulation, formulation peuvent changer le sens de la phrase
-    - Vous pouvez reformuler ou modifier au clavier avant envoi
-- Utilisez des signes de la main pour faire comprendre à l’usager que c’est à lui ou à vous de parler avant de cliquer sur le micro.
-- En zone d’accueil public, évitez les échanges sur tablette avec du monde autour pour ne pas générer de perturbations (bruit, phrases d’une personne voisine)
+Important recommendations during conversations with non-native speakers:
+- Speak clearly and close to the microphone,
+- Use short sentences,
+- Avoid acronyms. For example, instead of saying RIB, say "Relevé d’Identité Bancaire" as RIB may be mistranslated,
+- After speaking, check the sentence written by TradEmploi before sending it:
+    - Poor articulation or formulation can change the meaning of the sentence,
+    - You can reformulate or modify it on the keyboard before sending it,
+- Use hand signals to indicate whose turn it is to speak before clicking on the microphone.
+- In public reception areas, avoid tablet conversations with crowds around to prevent disruptions (noise, sentences from nearby people).
 
-# Evaluer l'expérience
-A la fin de l'entretien, vous avez la possiblité de contribuer à l'amélioration de l'outil en effectuant une rapide évaluation de manière anonyme.
+# Evaluating the experience
+At the end of the conversation, you can contribute to improving the tool by providing a quick and anonymous evaluation.
 <img width="955" alt="image" src="https://github.com/user-attachments/assets/022b0a81-12f2-4ad4-8d19-4247cba31670">
 
-# Démonstration
-Vidéo teasing:
+# Demonstration
+Teaser video:
 
 https://github.com/user-attachments/assets/ea8b524d-fc30-4b96-a896-92e98588ee74
 
-Vidéo en motion design:
+Motion design video:
 
 [![Watch the video](https://img.youtube.com/vi/aRF_eJWPfeY/default.jpg)](https://www.youtube.com/embed/aRF_eJWPfeY)
 
-Tests par les médias : 
-- [Vidéo BFMTV](https://www.bfmtv.com/paris/replay-emissions/bonjour-paris/sncf-une-appli-de-traduction-en-130-langues_VN-202404190143.html)
-- [Podcast RTL](https://www.rtl.fr/actu/debats-societe/tradsncf-comment-fonctionne-l-appli-qui-devra-aider-les-touristes-etrangers-7900375831) 
+Media tests:
+- [BFMTV video](https://www.bfmtv.com/paris/replay-emissions/bonjour-paris/sncf-une-appli-de-traduction-en-130-langues_VN-202404190143.html)
+- [RTL Podcast](https://www.rtl.fr/actu/debats-societe/tradsncf-comment-fonctionne-l-appli-qui-devra-aider-les-touristes-etrangers-7900375831)
 
-# Suivi usage
-Connexions via bouton Inclusion Connect : https://stats.inclusion.beta.gouv.fr/public/dashboard/e9f7b6f2-e3af-45e9-84ef-0e91c2ba4c8c
+# Usage monitoring
+Connections via Inclusion Connect button: https://stats.inclusion.beta.gouv.fr/public/dashboard/e9f7b6f2-e3af-45e9-84ef-0e91c2ba4c8c
 
-# Licence
-Ce projet est distribué sous la licence GNU AFFERO GENERAL PUBLIC LICENSE V3.0. Merci lire le fichier LICENSE.
+# License
+This project is distributed under the GNU Affero General Public License V3.0. Please read the LICENSE file.
 
-# Modules et documentation technique
-- Documenation technique globale du projet : [TradEmploi: main documentation](docs/documentation.md)
-- Code source et documentation technique du module [TradEmploi-backend](https://github.com/OSS-Pole-Emploi/TradEmploi-BackEnd.git)
-- Code source et documentation technique du module [TradEmploi-frontend](https://github.com/OSS-Pole-Emploi/TradEmploi-FrontEnd.git)
+# Modules and technical documentation
+- Global technical documentation for the project, this page, [TradEmploi: main documentation](docs/documentation.md)
+- Source code and technical documentation for the [TradEmploi-backend](https://github.com/OSS-Pole-Emploi/TradEmploi-BackEnd.git)
+- Source code and technical documentation for the [TradEmploi-frontend](https://github.com/OSS-Pole-Emploi/TradEmploi-FrontEnd.git)
