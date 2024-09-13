@@ -12,9 +12,9 @@ The data is processed anonymously and deleted after the exchanges.
 
 The application was developed and deployed at France Travail in spring 2022 (TradEmploi), and at SNCF in 2024 to assist the 2 million foreign travelers (TradSNCF). It became available to the entire [inclusion network](https://inclusion.beta.gouv.fr/nos-services/inclusion-connect/) in 2024.
 
-![image](https://github.com/akourlaiev/TradEmploi/assets/20724274/e0719c08-607d-459b-8885-fdd6560d00de)
+![image](https://github.com/user-attachments/assets/e5e72e04-6903-4b1d-8b10-490d165aa357)
 
-![image](https://github.com/user-attachments/assets/07e6680b-1af0-4dab-9af6-4d111e5cec2f)
+![image](https://github.com/user-attachments/assets/9573197b-b666-44be-8836-b5bf4d31dc91)
 
 # Prerequisites for using the application
 - Internet: continuous connection via wired, WiFi, or 4G.
@@ -32,7 +32,7 @@ A voice recording is used to confirm the user's correct language comprehension.
 
 There are languages where voice output is not supported. In these cases, the user will not be able to hear the translations in their language and will need to read them on the screen. Voice support will be implemented for these languages when available from the translation providers.
 
-<img width="770" alt="image" src="https://github.com/user-attachments/assets/8dfc4b6b-a3d9-4afc-a669-6e5acd4b0272">
+<img width="770" alt="image" src="https://github.com/user-attachments/assets/70d19898-2a43-43a3-b9a0-59a8b3c63f87">
 
 # Conversing
 After choosing a language, you arrive on the conversation support page. A greeting message translated into the user's language provides instructions: "This is an automatic translator that will translate your language. For a better translation experience, use short and simple sentences and speak clearly." These instructions can be voiced in the user's language.
@@ -51,7 +51,8 @@ Important recommendations during conversations with non-native speakers:
 
 # Evaluating the experience
 At the end of the conversation, you can contribute to improving the tool by providing a quick and anonymous evaluation.
-<img width="955" alt="image" src="https://github.com/user-attachments/assets/022b0a81-12f2-4ad4-8d19-4247cba31670">
+<img width="955" alt="image" src="https://github.com/user-attachments/assets/4719185a-dc6b-4d5a-b78b-52289ec26c01">
+
 
 # Demonstration
 Teaser video:
