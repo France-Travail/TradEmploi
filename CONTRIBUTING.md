@@ -32,3 +32,9 @@ Before submitting a patch:
 - Please attach a concise explanation of the changes
 
 Improvements will be made continuously by the CORE TEAM.
+
+## Communcation canal 
+A dedicated Framateam has been created, to join it you need to have an account and follow this link : https://framateam.org/signup_user_complete/?id=bhez4sga5fbbfeue1inbu6kdga&md=link&sbr=su![image](https://github.com/user-attachments/assets/5f724e97-3668-4bfc-b27f-a2578d1a9f2e)
+
+
+
