@@ -75,5 +75,5 @@ This project is distributed under the GNU Affero General Public License V3.0. Pl
 
 # Modules and technical documentation
 - Global technical documentation for the project, this page, [TradEmploi: main documentation](docs/documentation.md)
-- Source code and technical documentation for the [TradEmploi-backend](https://github.com/OSS-Pole-Emploi/TradEmploi-BackEnd.git)
-- Source code and technical documentation for the [TradEmploi-frontend](https://github.com/OSS-Pole-Emploi/TradEmploi-FrontEnd.git)
+- Source code and technical documentation for the [TradEmploi-backend](https://github.com/France-Travail/TradEmploi-BackEnd)
+- Source code and technical documentation for the [TradEmploi-frontend](https://github.com/France-Travail/TradEmploi-FrontEnd)
