@@ -10,7 +10,7 @@ Three types of services with different AI systems are used:
 
 The data is processed anonymously and deleted after the exchanges.
 
-The application was developed and deployed at France Travail in spring 2022 (TradEmploi), and at SNCF in 2024 to assist the 2 million foreign travelers (TradSNCF). It became available to the entire [inclusion network](https://inclusion.beta.gouv.fr/nos-services/inclusion-connect/) in 2024.
+The application was developed and deployed at France Travail in spring 2022 (TradEmploi), and at SNCF in 2024 to assist the 2 million foreign travelers (TradSNCF). It became available to the entire [inclusion network](https://inclusion.gouv.fr) in 2024.
 
 ![image](https://github.com/user-attachments/assets/e5e72e04-6903-4b1d-8b10-490d165aa357)
 
@@ -20,7 +20,7 @@ The application was developed and deployed at France Travail in spring 2022 (Tra
 - Internet: continuous connection via wired, WiFi, or 4G.
 - Recommended devices: PC, tablet, smartphones (Android and iPhone).
 - Recommended browsers: Google Chrome.
-- User account: SSO France Travail, SNCF, [Inclusion Connect](https://inclusion.beta.gouv.fr/nos-services/inclusion-connect/), Firebase Auth (login/password or certificate).
+- User account: SSO France Travail, SNCF, [Inclusion Connect](https://inclusion.gouv.fr), Firebase Auth (login/password or certificate).
 
 # Choosing the language
 The agent presents the screen to the user to choose a language. The choice is made based on:
