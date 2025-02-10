@@ -1,4 +1,4 @@
-# TradEmploi / TradSNCF
+# TradOpen : TradEmploi / TradSNCF
 TradEmploi / TradSNCF is a web application that allows people who do not speak the same languages to communicate. Everyone can speak and hear in their own language.
 
 The application integrates, in a secure framework, language APIs provided by Google Cloud, Microsoft Azure, and DeepL.
